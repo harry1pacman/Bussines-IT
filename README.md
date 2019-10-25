@@ -44,3 +44,20 @@ elif n < 0:
     print('Отрицательное число')
 elif n == 0:
     print('Число равно нулю')
+задание  13:
+d = int(input('бревно'))
+a = int(input('брусок'))
+if d**2 == a**2 + a**2:
+    print('можно')
+elif d**2 > a**2 + a**2:
+    print('можно')
+else:
+    print('нельзя')
+    задание 20:
+    x = int(input())
+a = int(input())
+b = int(input())
+if a <= x and b >= x:
+    print('входит')
+else:
+    print('не входит')
