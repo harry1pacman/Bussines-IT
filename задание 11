@@ -1,0 +1,19 @@
+a = int(input('Высота'))
+b = int(input('ширина'))
+c = int(input('глубина'))
+m = int(input('высота двери'))
+k = int(input('ширина двери'))
+if a < m and b < k:
+    print('Коробка пролезет')
+elif a < m and b > k:
+    if a < m and c < k:    
+        print('Коробка пролезет')
+    else:
+        print('Коробка непролезет')
+elif a > m and b < k:
+    if c < m and b < k:    
+        print('Коробка пролезет')
+    else:
+        print('Коробка непролезет')
+
+а
